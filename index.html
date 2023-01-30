@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/lib/bootstrap-5.3.0/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulaire</h1>
+
+        <form action="">
+            <div class="mb-3">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" name="name" id="name">
+                <small id="error-name" class="text-danger"></small>
+            </div>
+
+            <div class="mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" id="email">
+                <small id="error-email" class="text-danger"></small>
+            </div>
+
+            <div class="mb-3">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" name="password" id="password">
+                <small id="error-password" class="text-danger"></small>
+            </div>
+
+            <div class="mb-3">
+                <label for="password-confirm">Password confirm</label>
+                <input type="password" class="form-control" name="password-confirm" id="password-confirm">
+                <small id="error-password-confirm" class="text-danger"></small>
+            </div>
+
+            <button class="btn btn-primary" id="register" type="button">Register</button>
+        </form>
+    </div>
+
+    <script src="assets/lib/bootstrap-5.3.0/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
